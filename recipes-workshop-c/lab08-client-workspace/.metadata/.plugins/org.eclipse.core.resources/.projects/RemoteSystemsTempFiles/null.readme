@@ -1,0 +1,1 @@
+This file forces the git repository to add the RemoteSystemsTempFiles directory that would otherwise be empty, alleviating a warning that otherwise occurs when switching workspaces

@@ -1,0 +1,119 @@
+15:56:52 **** Incremental Build of configuration Default for project lab07-solution-a ****
+make all 
+cd /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/files//../../../../../../build; source conf/setenv; MACHINE=am335x-evm bitbake -c cleansstate lab07-solution-a
+Loading cache...done.
+Loaded 2064 entries from dependency cache.
+WARNING: No recipes available for:
+  /home/user/oe-layersetup/sources/meta-qt5/recipes-devtools/cmake/cmake_2.8.11.2.bbappend
+
+Build Configuration:
+BB_VERSION        = "1.18.0"
+BUILD_SYS         = "i686-linux"
+NATIVELSBSTRING   = "Ubuntu-12.04"
+TARGET_SYS        = "arm-oe-linux-gnueabi"
+MACHINE           = "am335x-evm"
+DISTRO            = "arago"
+DISTRO_VERSION    = "2013.12"
+TUNE_FEATURES     = "armv7a vfp thumb neon callconvention-hard cortexa8"
+TARGET_FPU        = "vfp-neon"
+meta-arago-distro 
+meta-arago-extras = "(nobranch):51e32a69d3d58c032b22673e4b05a76d36ea1a97"
+meta-qt5          = "(nobranch):cefaba69a785c5221463f0eb496b749d5ddf8a5a"
+toolchain-layer   
+meta-networking   
+meta-oe           = "(nobranch):cb182019c4f7485713cb50623240c01882448ffd"
+meta-ti           = "(nobranch):2d8b62b4e9aea0308030ad25eb4d56ec6b6ed3ae"
+meta-linaro-toolchain = "(nobranch):c9f78d6eff14ada3f2bc960e81883b27a10afecc"
+meta              = "(nobranch):58b479f4d4d283e590a55a71151fca481fbe3c24"
+meta-workshop     = "master:b4e97338c1e1b727207b3eaee834c5c68c1344bf"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 1 of 2 (ID: 0, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_clean)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_clean: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_clean: Succeeded
+NOTE: Running task 2 of 2 (ID: 1, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_cleansstate)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_cleansstate: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_cleansstate: Succeeded
+NOTE: Tasks Summary: Attempted 2 tasks of which 0 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+cd /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/files//../../../../../../build; source conf/setenv; MACHINE=am335x-evm bitbake  lab07-solution-a
+Loading cache...done.
+Loaded 2064 entries from dependency cache.
+WARNING: No recipes available for:
+  /home/user/oe-layersetup/sources/meta-qt5/recipes-devtools/cmake/cmake_2.8.11.2.bbappend
+
+Build Configuration:
+BB_VERSION        = "1.18.0"
+BUILD_SYS         = "i686-linux"
+NATIVELSBSTRING   = "Ubuntu-12.04"
+TARGET_SYS        = "arm-oe-linux-gnueabi"
+MACHINE           = "am335x-evm"
+DISTRO            = "arago"
+DISTRO_VERSION    = "2013.12"
+TUNE_FEATURES     = "armv7a vfp thumb neon callconvention-hard cortexa8"
+TARGET_FPU        = "vfp-neon"
+meta-arago-distro 
+meta-arago-extras = "(nobranch):51e32a69d3d58c032b22673e4b05a76d36ea1a97"
+meta-qt5          = "(nobranch):cefaba69a785c5221463f0eb496b749d5ddf8a5a"
+toolchain-layer   
+meta-networking   
+meta-oe           = "(nobranch):cb182019c4f7485713cb50623240c01882448ffd"
+meta-ti           = "(nobranch):2d8b62b4e9aea0308030ad25eb4d56ec6b6ed3ae"
+meta-linaro-toolchain = "(nobranch):c9f78d6eff14ada3f2bc960e81883b27a10afecc"
+meta              = "(nobranch):58b479f4d4d283e590a55a71151fca481fbe3c24"
+meta-workshop     = "master:b4e97338c1e1b727207b3eaee834c5c68c1344bf"
+
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing runqueue
+NOTE: Executing SetScene Tasks
+NOTE: Executing RunQueue Tasks
+NOTE: Running task 321 of 518 (ID: 4, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_fetch)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_fetch: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_fetch: Succeeded
+NOTE: Running task 506 of 518 (ID: 0, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_unpack)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_unpack: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_unpack: Succeeded
+NOTE: Running task 507 of 518 (ID: 1, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_patch)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_patch: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_patch: Succeeded
+NOTE: Running task 508 of 518 (ID: 5, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_create_srcipk)
+NOTE: Running task 509 of 518 (ID: 8, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_populate_lic)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_create_srcipk: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_populate_lic: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_create_srcipk: Succeeded
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_populate_lic: Succeeded
+NOTE: Running task 510 of 518 (ID: 6, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_configure)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_configure: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_configure: Succeeded
+NOTE: Running task 511 of 518 (ID: 7, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_compile)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_compile: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_compile: Succeeded
+NOTE: Running task 512 of 518 (ID: 2, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_install)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_install: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_install: Succeeded
+NOTE: Running task 513 of 518 (ID: 11, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_package)
+NOTE: Running task 514 of 518 (ID: 3, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_populate_sysroot)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_package: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_populate_sysroot: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_populate_sysroot: Succeeded
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_package: Succeeded
+NOTE: Running task 515 of 518 (ID: 10, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_packagedata)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_packagedata: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_packagedata: Succeeded
+NOTE: Running task 516 of 518 (ID: 13, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_package_write_ipk)
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_package_write_ipk: Started
+NOTE: recipe lab07-solution-a-1.0-r0.0: task do_package_write_ipk: Succeeded
+NOTE: Running noexec task 517 of 518 (ID: 9, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_package_write)
+NOTE: Running noexec task 518 of 518 (ID: 12, /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/lab07-solution-a_1.0.bb, do_build)
+NOTE: Tasks Summary: Attempted 518 tasks of which 504 didn't need to be rerun and all succeeded.
+
+Summary: There was 1 WARNING message shown.
+cp /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/files//../../../../../../build/arago-tmp-external-linaro-toolchain/work/cortexa8hf-vfp-neon-3.8-oe-linux-gnueabi/lab07-solution-a/1.0-r0.0/package/home/root/workshop/lab07-solution-a ./lab07-solution-a
+install -d ./.debug 
+cp /home/user/oe-layersetup/sources/meta-workshop/recipes-workshop-c/lab07-workspace/lab07-solution-a/files//../../../../../../build/arago-tmp-external-linaro-toolchain/work/cortexa8hf-vfp-neon-3.8-oe-linux-gnueabi/lab07-solution-a/1.0-r0.0/package/home/root/workshop/.debug/lab07-solution-a ./.debug/lab07-solution-a
+
+15:57:05 Build Finished (took 13s.697ms)
+

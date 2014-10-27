@@ -1,0 +1,4 @@
+activeuserprofiles=Team;ubuntu;yocto
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=user
+useridperkey=yocto.Local\=user;yocto.DO_NOT_USE-SOLUTION_ONLY\=root;
