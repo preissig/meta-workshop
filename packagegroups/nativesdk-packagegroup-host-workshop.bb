@@ -6,7 +6,6 @@ PR = "r0"
 inherit nativesdk packagegroup
 
 RDEPENDS_${PN} += "\
-     nativesdk-lab03-solution-a \
      nativesdk-lab04-solution-a \
      nativesdk-lab05-solution-a \
      nativesdk-lab05-solution-b \

@@ -7,8 +7,6 @@ inherit packagegroup
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 RDEPENDS_${PN} = "\
-     lab03-solution-a \
-     lab03-student \
      lab04-solution-a \
      lab04-student \
      lab05-solution-a \
